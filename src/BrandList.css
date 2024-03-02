@@ -1,0 +1,100 @@
+/* BrandList.css */
+
+.roles-table {
+    border-collapse: collapse;
+
+    justify-content: center;
+    width: 30%;
+   
+    background: linear-gradient(to left, #3e0657);
+    /* Example gradient */
+}
+
+.roles-table th,
+.roles-table td {
+    border: 1px solid rgb(82, 18, 18);
+    margin-right: 50px;
+    text-align: left;
+    width: 30%;
+    padding: 3px;
+}
+
+.role-cell {
+    font-weight: bold;
+    color: rgb(191, 29, 29)
+    /* Add any additional styling you want for the cells */
+}
+/* DepartmentList.css */
+
+.departments-table {
+    border-collapse: collapse;
+    width: 30%;
+    margin-top: 15px;
+    background: linear-gradient(to left, #a11313);
+    /* Example gradient */
+}
+
+.departments-table th,
+.departments-table td {
+    border: 1px solid rgb(21, 18, 18);
+    margin-right: 50px;
+    text-align: left;
+    width: 30%;
+    padding: 3px;
+}
+
+.department-cell {
+    font-weight: bold;
+    color: rgb(14, 12, 12);
+    /* Add any additional styling you want for the cells */
+}
+
+.department-cell.with-black-border {
+    border-color: rgb(43, 38, 38);
+}
+employees-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 15px;
+    background: linear-gradient(to left, #843535);
+    /* Example gradient */
+}
+
+.employees-table th,
+.employees-table td {
+    border: 1px solid rgb(14, 12, 12);
+    margin-right: 50px;
+    text-align: left;
+    padding: 8px;
+}
+
+.employee-cell {
+    font-weight: bold;
+    color: rgb(119, 4, 4);
+    /* Add any additional styling you want for the cells */
+}
+
+.employee-cell.with-black-border {
+    border-color: rgb(129, 35, 35);
+}
+/* styles.css */
+
+.btn {
+    padding: 8px 16px;
+    margin-right: 8px;
+    background-color: #ba3a3a;
+    color: #ffffff;
+    border: salmon;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d42d2d;
+}
+.btn-custom-color {
+    background-color: #f80202;
+    /* Your custom color code */
+    color: #4f4091;
+    /* Text color */
+}
